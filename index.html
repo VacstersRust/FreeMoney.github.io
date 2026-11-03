@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3eb">
+  <meta name="description" content="СкамятТУТ.ру — роскошная пародия на инфобизнес, магическое мышление и обещания лёгкого успеха. Никто ничего не продаёт.">
+  <meta property="og:title" content="скамятТУТ.ру — хочется аж подозрительно">
+  <meta property="og:description" content="Подозрительно красивая пародия на инфоцыганские воронки. Вход свободный, обещания бесценны.">
+  <meta property="og:type" content="website">
+  <title>скамятТУТ.ру — хочется аж подозрительно</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
+  <div class="site-shell">
+    <div class="topline" aria-label="Рекламное предупреждение">
+      <div class="topline-track" aria-hidden="true">
+        <span>ОСТОРОЖНО: СЛИШКОМ КРАСИВО, ЧТОБЫ БЫТЬ ПРАВДОЙ</span><b>✳</b><span>НИЧЕГО НЕ ПРОДАЁМ — НО ОЧЕНЬ ХОЧЕТСЯ КУПИТЬ</span><b>✳</b><span>ВАШ УСПЕХ УЖЕ ГДЕ-ТО РЯДОМ (ВОЗМОЖНО)</span><b>✳</b>
+        <span>ОСТОРОЖНО: СЛИШКОМ КРАСИВО, ЧТОБЫ БЫТЬ ПРАВДОЙ</span><b>✳</b><span>НИЧЕГО НЕ ПРОДАЁМ — НО ОЧЕНЬ ХОЧЕТСЯ КУПИТЬ</span><b>✳</b><span>ВАШ УСПЕХ УЖЕ ГДЕ-ТО РЯДОМ (ВОЗМОЖНО)</span><b>✳</b>
+      </div>
+    </div>
+
+    <header class="header" id="top">
+      <a class="logo" href="#top" aria-label="СкамятТУТ, на главную">
+        <span class="logo-symbol" aria-hidden="true">✳</span><span>скамят<span class="logo-accent">ТУТ</span><span class="logo-dot">.ру</span></span>
+      </a>
+      <nav class="nav" id="mainNav" aria-label="Главное меню">
+        <a href="#how">Метод</a><a href="#offers">Программы</a><a href="#fortune">Колесо судьбы</a><a href="#reviews">Истории успеха</a>
+      </nav>
+      <div class="header-actions">
+        <span class="satire-pill"><span class="satire-led"></span> ПАРОДИЯ, НЕ ОФЕРТА</span>
+        <a class="btn btn-dark btn-header" href="#offers">ХОЧУ В КЛУБ <span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" type="button" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Открыть меню"><span></span><span></span></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" aria-labelledby="heroTitle">
+        <div class="hero-gridlines" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <div class="eyebrow reveal"><span class="dot-pulse"></span> НОВАЯ ЭРА ЛЕГЕНДАРНОГО НИЧЕГО</div>
+          <h1 class="hero-title reveal" id="heroTitle">ЭТО <span class="title-italic">ВЫГЛЯДИТ</span><br><span class="hero-title-accent">КАК МЕЧТА.</span><span class="hero-small-line">И ПАХНЕТ КАК СКАМ.</span></h1>
+          <p class="hero-intro reveal">Мы упаковали всё, от чего невозможно отвести взгляд: роскошь, успех, секретный секрет и <em>предложение только для избранных.</em> Спойлер: избранные — все.</p>
+          <div class="hero-cta-group reveal">
+            <button class="btn btn-acid btn-xl" type="button" data-open="vip">ДА, Я ХОЧУ ЭТО ВСЁ <span class="btn-arrow" aria-hidden="true">↗</span></button>
+            <a class="text-link" href="#how">В ЧЁМ ПОДВОХ? <span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="hero-proof reveal" aria-label="Абсурдные показатели проекта">
+            <div class="tiny-avatars" aria-hidden="true"><span>😎</span><span>🤑</span><span>🦄</span><span>🤡</span></div>
+            <p><strong>999 999+</strong> человек могли бы это захотеть<br><small>Цифра придумана отделом вдохновения</small></p>
+          </div>
+        </div>
+
+        <div class="hero-stage reveal" aria-label="Золотой VIP-билет мечты">
+          <div class="stage-glow stage-glow-1" aria-hidden="true"></div>
+          <div class="stage-glow stage-glow-2" aria-hidden="true"></div>
+          <span class="stage-top-caption">100% AESTHETIC · 0% GUARANTEE</span>
+          <div class="floating-label floating-label-pink"><span>★</span> УЖЕ ХОЧЕТСЯ?</div>
+          <div class="floating-label floating-label-green">LIMITED<span>∞</span>EDITION</div>
+          <div class="vip-card" id="vipCard">
+            <div class="vip-card-hologram" aria-hidden="true"></div>
+            <div class="vip-top"><span>СКАМЯТ ТУТ <i>®*</i></span><span class="vip-seal">✷</span></div>
+            <div class="vip-main"><span>ДОСТУП В</span><strong>НУ ОЧЕНЬ<br>БОГАТУЮ<br>ЖИЗНЬ</strong></div>
+            <div class="vip-middle"><span>VIP / DREAMER</span><span>№ 0000001 / ∞</span></div>
+            <div class="vip-bottom"><div class="vip-stub"><span>ПРИВИЛЕГИИ</span><strong>Обещания без обязательств</strong></div><div class="vip-qr" aria-label="Декоративный узор, не QR-код"><span>✳</span></div></div>
+          </div>
+          <div class="stage-caption"><span>ФИЗИЧЕСКИЙ ОБЪЕКТ ЖЕЛАНИЯ</span><span>НЕ ЯВЛЯЕТСЯ БАНКОВСКОЙ КАРТОЙ ↗</span></div>
+          <div class="hero-spark hero-spark-one" aria-hidden="true">✦</div><div class="hero-spark hero-spark-two" aria-hidden="true">✳</div>
+        </div>
+        <div class="hero-corner-note">* зарегистрировано в воображении</div>
+      </section>
+
+      <section class="stats-strip" aria-label="Наша статистика, выдуманная ради шутки">
+        <div class="stats-inner">
+          <div class="stat"><span class="stat-number">∞</span><span class="stat-label">УРОВЕНЬ АМБИЦИЙ</span></div>
+          <div class="stat"><span class="stat-number">0<span>%</span></span><span class="stat-label">ПОДТВЕРЖДЁННЫХ ЧУДЕС</span></div>
+          <div class="stat"><span class="stat-number">24<span>/7</span></span><span class="stat-label">ПОВОДОВ ВОСХИТИТЬСЯ</span></div>
+          <div class="stats-note">* Все цифры — художественный вымысел. Зато красиво.</div>
+        </div>
+      </section>
+
+      <section class="how-section section-pad" id="how" aria-labelledby="howTitle">
+        <div class="content-width">
+          <div class="section-heading heading-split reveal"><div><p class="kicker"><span class="kicker-icon">✳</span> КАК ЭТО РАБОТАЕТ</p><h2 id="howTitle">ПРОДАЁМ<br><span class="outline-type">ОЩУЩЕНИЕ.</span></h2></div><p class="heading-aside">Всё, что вы любите в инфобизнесе. Кроме инфобизнеса. Наш товар — исключительно <strong>ваше чувство «ВОТ ОНО!»</strong></p></div>
+          <div class="steps-grid">
+            <article class="step-card step-one reveal"><div class="step-head"><span>01 / ВЛЮБИТЬСЯ</span><span>↗</span></div><div class="step-art step-art-heart" aria-hidden="true"><span>♥</span><div class="step-halo"></div></div><h3>ПОЧУВСТВУЙ<br>ВАЙБ</h3><p>Глянец, большие буквы и столько уверенности, что логика уже снимает пальто.</p></article>
+            <article class="step-card step-two reveal"><div class="step-head"><span>02 / ПОТОРОПИТЬСЯ</span><span>↗</span></div><div class="step-art step-art-clock" aria-hidden="true"><span class="clock-face"><i></i><b></b></span><span class="clock-burst">!</span></div><h3>ПОЙМАЙ<br>FOMO</h3><p>«Осталось три места!» — говорит таймер. Места, кстати, бесконечные.</p></article>
+            <article class="step-card step-three reveal"><div class="step-head"><span>03 / ПРОЗРЕТЬ</span><span>↗</span></div><div class="step-art step-art-eye" aria-hidden="true"><span>👁</span><span class="eye-star">✦</span></div><h3>ВКЛЮЧИ<br>КРИТИЧНОСТЬ</h3><p>В реальном мире проверяй обещания. А здесь можно безопасно посмеяться.</p></article>
+          </div>
+          <div class="micro-note reveal"><span>✱</span> ФИЛОСОФИЯ БРЕНДА: «СНАЧАЛА WOW, ПОТОМ ААА, ПОНЯТНО»</div>
+        </div>
+      </section>
+
+      <section class="offers-section section-pad" id="offers" aria-labelledby="offerTitle">
+        <div class="content-width">
+          <div class="offers-head reveal"><div><p class="kicker kicker-light"><span class="kicker-icon">✳</span> ПРОГРАММЫ ТВОЕЙ МЕЧТЫ</p><h2 id="offerTitle">ВЫБЕРИ СВОЙ<br><span class="pink-type">УРОВЕНЬ ДЕЛЮКС.</span></h2></div><div class="limited-box"><span class="blink-dot"></span><span>ДО КОНЦА ВЕЧНОГО ПРЕДЛОЖЕНИЯ</span><strong id="countdown" aria-label="Пародийный вечный таймер">00:09:59</strong><small>обновляется бесконечно, как и вебинары</small></div></div>
+          <div class="offers-grid">
+            <article class="offer-card offer-card-lime reveal">
+              <div class="offer-top"><span class="offer-tag">MOST WANTABLE</span><span class="offer-icon">✳</span></div>
+              <div class="offer-symbol offer-symbol-one" aria-hidden="true">✦</div>
+              <div class="offer-body"><p class="offer-index">ПРОГРАММА № 01</p><h3>МЫШЛЕНИЕ<br>МИЛЛИАРДЕРА</h3><p>Разреши себе смотреть на цены не моргая. Миллиард не прилагается.</p></div>
+              <div class="offer-price"><span class="crossed">999 999 ₽</span><strong>0 ₽</strong><span>цена твоей фантазии</span></div>
+              <button class="offer-action" type="button" data-offer="mind">Я ЭТО ХОЧУ <span>↗</span></button>
+            </article>
+            <article class="offer-card offer-card-purple reveal">
+              <div class="offer-top"><span class="offer-tag">ТОЛЬКО ДЛЯ ТЕБЯ И ВСЕХ</span><span class="offer-icon">✷</span></div>
+              <div class="offer-symbol offer-symbol-two" aria-hidden="true"><div class="cosmic-sphere"></div><span>7D</span></div>
+              <div class="offer-body"><p class="offer-index">ПРОГРАММА № 02</p><h3>КВАНТОВЫЙ<br>ПРОРЫВ 7D</h3><p>Поменяй частоту вибраций. Wi‑Fi роутер останется прежним.</p></div>
+              <div class="offer-price"><span class="crossed">1 777 777 ₽</span><strong>0 ₽</strong><span>все измерения включены</span></div>
+              <button class="offer-action" type="button" data-offer="quantum">ХОЧУ В 7D <span>↗</span></button>
+            </article>
+            <article class="offer-card offer-card-pink reveal">
+              <div class="offer-top"><span class="offer-tag">ULTIMATE ULTRA VIP</span><span class="offer-icon">♛</span></div>
+              <div class="offer-symbol offer-symbol-three" aria-hidden="true"><span>♛</span><i>✦</i></div>
+              <div class="offer-body"><p class="offer-index">ПРОГРАММА № 03</p><h3>МАСТЕРМАЙНД<br>ПО МАСТЕРМАЙНДАМ</h3><p>Научись создавать курсы о создании курсов. Идеальная бесконечность.</p></div>
+              <div class="offer-price"><span class="crossed">∞ ₽</span><strong>0 ₽</strong><span>сегодня и навсегда</span></div>
+              <button class="offer-action" type="button" data-offer="mastermind">ВЗЯТЬ ВСЁ <span>↗</span></button>
+            </article>
+          </div>
+          <p class="offers-disclaimer">* Ни одна программа не существует и не продаётся. Но названия — мощные.</p>
+        </div>
+      </section>
+
+      <section class="fortune-section section-pad" id="fortune" aria-labelledby="fortuneTitle">
+        <div class="content-width fortune-grid">
+          <div class="fortune-info reveal"><p class="kicker"><span class="kicker-icon">✳</span> ГЕЙМИФИКАЦИЯ СУДЬБЫ</p><h2 id="fortuneTitle">КРУТАНИ.<br><span class="outline-type">ПОВЕРЬ.</span><br>УДИВИСЬ.</h2><p>Пусть алгоритм вселенной решит, какое абсолютно бесполезное, но очень приятное предсказание тебе достанется.</p><div class="fortune-result" id="fortuneResult" role="status" aria-live="polite"><span>ТВОЙ ПРОГНОЗ</span><strong>Ждём щелчка судьбы ✦</strong></div><button class="btn btn-dark btn-xl" id="spinButton" type="button">КРУТИТЬ КОЛЕСО <span class="btn-arrow">↗</span></button><small class="fortune-fineprint">Без оплаты, регистрации и эзотерического договора.</small></div>
+          <div class="wheel-zone reveal"><div class="wheel-ornament wheel-ornament-one">✦</div><div class="wheel-ornament wheel-ornament-two">✳</div><div class="wheel-pointer" aria-hidden="true"></div><div class="wheel-shadow" aria-hidden="true"></div><div class="wheel" id="wheel" role="img" aria-label="Колесо с восемью шуточными предсказаниями"><div class="wheel-face" aria-hidden="true"><span class="wheel-label" style="--i:0">ДЖЕКПОТ</span><span class="wheel-label" style="--i:1">ВАЙБ</span><span class="wheel-label" style="--i:2">ВАУ</span><span class="wheel-label" style="--i:3">КОФЕ</span><span class="wheel-label" style="--i:4">VIP</span><span class="wheel-label" style="--i:5">ХАЙП</span><span class="wheel-label" style="--i:6">ЛЮКС</span><span class="wheel-label" style="--i:7">МЕМ</span></div><div class="wheel-hub" aria-hidden="true">S<span>✳</span>T</div></div><div class="wheel-caption">НЕ ПЫТАЙСЯ НАЙТИ ТУТ МАТЕМАТИКУ</div></div>
+        </div>
+      </section>
+
+      <section class="desire-section section-pad" id="diagnostic" aria-labelledby="desireTitle"><div class="content-width desire-grid"><div class="desire-copy reveal"><p class="kicker kicker-light"><span class="kicker-icon">✳</span> ЭКСКЛЮЗИВНАЯ ДИАГНОСТИКА</p><h2 id="desireTitle">НАСКОЛЬКО<br>ТЫ <span>ГОТОВ</span><br>ПОВЕСТИСЬ?</h2><p>Никаких психологов. Только ползунок, самоуверенная формула и очень убедительная графика.</p><div class="diagnosis-status"><span class="diagnosis-led"></span> ИССЛЕДОВАНИЕ АБСОЛЮТНО НЕНАУЧНОЕ</div></div><div class="diagnostic-card reveal"><div class="diagnostic-header"><span>СКАНЕР ДОВЕРЧИВОСТИ™</span><span>VER. 0.0.0</span></div><div class="diagnostic-value"><strong id="trustNumber">72</strong><span>%</span></div><div class="range-labels"><span>СКЕПТИК</span><span>УЖЕ ОПЛАЧИВАЮ</span></div><input id="trustRange" class="trust-range" type="range" min="0" max="100" value="72" aria-label="Уровень доверчивости в процентах"><div class="diagnostic-feedback" id="trustFeedback" role="status">Вы почти готовы купить воздух. Но с премиальной доставкой.</div><div class="fake-chart" aria-hidden="true"><span style="--h:42%"></span><span style="--h:57%"></span><span style="--h:35%"></span><span style="--h:68%"></span><span style="--h:79%"></span><span style="--h:62%"></span><span style="--h:90%"></span><span style="--h:73%"></span><span style="--h:100%"></span><span style="--h:88%"></span><span style="--h:95%"></span><span style="--h:78%"></span><span style="--h:93%"></span><span style="--h:100%"></span></div><p class="diagnostic-footer">ГРАФИК НИЧЕГО НЕ ПОКАЗЫВАЕТ. НО КРАСИВЫЙ.</p></div></div></section>
+
+      <section class="reviews-section section-pad" id="reviews" aria-labelledby="reviewsTitle"><div class="content-width"><div class="reviews-heading reveal"><div><p class="kicker"><span class="kicker-icon">✳</span> СОЦИАЛЬНОЕ ДОКАЗАТЕЛЬСТВО</p><h2 id="reviewsTitle">ВОТ ЧТО <span class="pink-marker">«ГОВОРЯТ»</span><br>НАШИ ЛЕГЕНДЫ.</h2></div><span class="fiction-tag">100% ВЫДУМАННЫЕ ОТЗЫВЫ</span></div><div class="review-grid"><article class="review-card reveal"><div class="review-stars" aria-label="Пять шуточных звёзд">★★★★★</div><blockquote>«Прошла курс мышления миллиардера. Теперь смотрю на доширак как на инвестиционный актив».</blockquote><div class="review-author"><span class="review-avatar ra-lime">🥹</span><span><strong>Алина, 25 лет</strong><small>Миллиардер в душе</small></span><span class="verified">✳</span></div></article><article class="review-card review-card-highlight reveal"><div class="review-stars" aria-label="Пять шуточных звёзд">★★★★★</div><blockquote>«После квантового прорыва у меня появилось 7 измерений. В шести из них я сплю».</blockquote><div class="review-author"><span class="review-avatar ra-purple">🛸</span><span><strong>Аркадий, 31 год</strong><small>Предприниматель в 7D</small></span><span class="verified">✳</span></div></article><article class="review-card reveal"><div class="review-stars" aria-label="Пять шуточных звёзд">★★★★★</div><blockquote>«Наконец-то нашёл сайт, где меня пытаются впечатлить, а не обобрать. Даже обидно».</blockquote><div class="review-author"><span class="review-avatar ra-pink">🕶</span><span><strong>Валера, 42 года</strong><small>Почётный скептик</small></span><span class="verified">✳</span></div></article></div></div></section>
+
+      <section class="final-cta" aria-labelledby="finalTitle"><div class="final-grain" aria-hidden="true"></div><div class="final-orbit orbit-one" aria-hidden="true"></div><div class="final-orbit orbit-two" aria-hidden="true"></div><div class="final-asterisk final-asterisk-left" aria-hidden="true">✳</div><div class="final-asterisk final-asterisk-right" aria-hidden="true">✦</div><div class="final-inner reveal"><p class="final-eyebrow">ЗАКРЫТЫЙ КЛУБ ОТКРЫТ АБСОЛЮТНО ДЛЯ ВСЕХ</p><h2 id="finalTitle">ТЫ УЖЕ<br><span>ХОЧЕШЬ.</span><br>МЫ ЗНАЕМ.</h2><p>Самое выгодное предложение на сайте: уйти с улыбкой и не отдать никому ни рубля.</p><button class="btn btn-acid btn-xl" type="button" data-open="vip">ДАВАЙ, УДИВИ МЕНЯ <span class="btn-arrow">↗</span></button><span class="final-tiny">НАЖАТИЕ НИ К ЧЕМУ НЕ ОБЯЗЫВАЕТ. ДАЖЕ К УСПЕХУ.</span></div></section>
+    </main>
+
+    <footer class="footer"><div class="content-width"><div class="footer-main"><a class="footer-logo" href="#top">скамят<span>ТУТ</span>.ру <span class="logo-symbol">✳</span></a><div class="footer-message"><strong>Слишком хорошее обещание? Проверь.</strong><p>Это комедийный проект. Никаких товаров, курсов, платежей, сбора контактов и «гарантированного заработка». Не переводи деньги под давлением, проверяй продавца и условия.</p></div></div><div class="footer-bottom"><span>© 2026 СКАМЯТТУТ · ДЕКОРАТИВНАЯ ИМПЕРИЯ</span><span>СДЕЛАНО С ЛЮБОВЬЮ К КРИТИЧЕСКОМУ МЫШЛЕНИЮ</span><a href="#top">НАВЕРХ ↑</a></div></div></footer>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"><span class="toast-icon">✳</span><div><span class="toast-kicker">ПОСТАНОВОЧНОЕ СОБЫТИЕ</span><strong id="toastText">Кто-то только что стал богаче на одну шутку.</strong></div><button id="toastClose" type="button" aria-label="Закрыть уведомление">×</button></div>
+
+  <dialog class="vip-dialog" id="vipDialog" aria-labelledby="dialogTitle"><button class="dialog-close" type="button" id="closeDialog" aria-label="Закрыть окно">×</button><div class="dialog-inner"><div class="dialog-emblem" aria-hidden="true">✳</div><p class="dialog-kicker">У В А Ж А Е М Ы Й &nbsp; И З Б Р А Н Н Ы Й</p><h2 id="dialogTitle">ПОЗДРАВЛЯЕМ.<br>ТЫ ПОЧТИ <span>ПОПАЛСЯ.</span></h2><p id="dialogDescription">Всё выглядело настолько заманчиво, что ты нажал кнопку. Но этот сайт — пародия, и тут никто не попросит твои деньги.</p><div class="dialog-reward"><span>ТВОЯ НАГРАДА</span><strong id="dialogReward">+100 К КРИТИЧЕСКОМУ МЫШЛЕНИЮ</strong><small>Виртуально. Без регистрации и SMS.</small></div><button class="btn btn-acid btn-xl dialog-button" type="button" id="collectReward">ЗАБРАТЬ МОРАЛЬНЫЙ БОНУС <span class="btn-arrow">↗</span></button><p class="dialog-footnote">Совершенно серьёзно: если кто-то обещает гарантированный доход и торопит с оплатой — это повод насторожиться.</p></div></dialog>
+  <button class="mobile-sticky-cta" type="button" data-open="vip">Я УЖЕ ХОЧУ <span>↗</span></button>
+</body>
+</html>
